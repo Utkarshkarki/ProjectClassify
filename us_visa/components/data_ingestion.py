@@ -88,7 +88,7 @@ class DataIngestion:
         On Failure  :   Write an exception log and then raise an exception
         """
         logging.info("Entered initiate_data_ingestion method of Data_Ingestion class")
-
+ 
         try:
             dataframe = self.export_data_into_feature_store()
 
